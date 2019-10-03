@@ -21,7 +21,7 @@ void input()                                                         //Function 
 =======
 void input()
 {
-	cout<<"ENTER THE DATE YOU WANT TO FIND (dd mm yyyy)\n\n";
+	cout<<"ENTER THE DATE YOU WANT TO FIND ( format: dd mm yyyy)\n\n";
 >>>>>>> b1f9209816c25e7e228398494498621d8c570468
 	for(int i=0;i<3;i++)
 	{
@@ -32,7 +32,7 @@ void input()
 }
 
 <<<<<<< HEAD
-void main()                                                          //Main function
+void main()                                                       
 =======
 void main()
 >>>>>>> b1f9209816c25e7e228398494498621d8c570468
@@ -43,9 +43,9 @@ void main()
 	{
 		input();
 <<<<<<< HEAD
-		cout<<"\nWANT TO SEE MORE?(y/n)\n";   
+		cout<<"\nDO YOU WANT TO SEE MORE?(y/n)\n";   
 =======
-		cout<<"\nWANT TO SEE MORE(y/n)\n";
+		cout<<"\nDO YOU WANT TO SEE MORE(y/n)\n";
 >>>>>>> b1f9209816c25e7e228398494498621d8c570468
 		cin>>ch;
 	}
